@@ -28,3 +28,7 @@ Route::get('/welcome/page2', function () {
 Route::get('/welcome/page3', function () {
     return view('page3');
 });
+
+Route::get('/welcome/template', function () {
+    return view('tsb');
+});
